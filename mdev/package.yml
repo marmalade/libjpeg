@@ -1,0 +1,37 @@
+Package: libjpeg
+Version: 6b
+Revision: 2
+Maintainer: Airplay Package Team <packages@ideaworkslabs.com>
+Mkbs: libjpeg.mkb
+Description:
+ The Independent JPEG Group's JPEG library is a library for handling
+ JPEG files.
+Contents-src:
+ - README.txt
+ - libjpeg.mkb
+ - libjpeg.mkf
+ - jconfig.h
+ - example/data/splash.jpg
+ - example/data/app.icf
+ - example/libjpeg_example.cpp
+ - example/libjpeg_example.mkb
+Contents:
+ - upstream/jpeglib.h : h/jpeglib.h
+ - upstream/jerror.h : h/jerror.h
+ - upstream/jpegint.h : h/jpegint.h
+ - upstream/jmorecfg.h : h/jmorecfg.h
+ - jconfig.h : h/jconfig.h
+ - lib/arm/jpeg.a
+ - lib/arm/jpeg_d.a
+ - lib/arm/libjpeg_d.a
+ - lib/arm/libjpeg.a
+Contents-platform:
+  win32:
+    - lib/x86/jpeg.lib
+    - lib/x86/jpeg_d.lib
+  linux:
+    - lib/x86/linux/libjpeg.a
+    - lib/x86/linux/libjpeg_d.a
+  macosx:
+    - lib/x86/darwin/libjpeg.a
+    - lib/x86/darwin/libjpeg_d.a

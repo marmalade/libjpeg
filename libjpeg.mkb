@@ -1,0 +1,6 @@
+#!/usr/bin/env mkb
+target jpeg
+
+option lib
+
+subproject libjpeg
