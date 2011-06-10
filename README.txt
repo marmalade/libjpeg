@@ -1,5 +1,5 @@
-jpeglib on airplay
-==================
+jpeglib for Marmalade
+=====================
 
 This module can be used to build the standard jpeglib library into airplay
 applications.
