@@ -1,7 +1,7 @@
 upstream
 {
 	# original: "http://www.ijg.org/files/jpegsrc.v6b.tar.gz"
-	url="http://source.ideaworkslabs.com/upstream/jpegsrc.v6b.tar.gz"
+	url="http://source.madewithmarmalade.com/upstream/jpegsrc.v6b.tar.gz"
 }
 
 version 6b
