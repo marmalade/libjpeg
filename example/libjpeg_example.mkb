@@ -1,0 +1,7 @@
+#!/usr/bin/env mkb
+package libjpeg
+
+subproject libjpeg
+
+files libjpeg_example.cpp
+

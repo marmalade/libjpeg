@@ -1,13 +1,14 @@
 Package: libjpeg
 Version: 6b
-Revision: 2
+Revision: 3
 Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
 Mkbs: libjpeg.mkb
+Libraries: jpeg
 Description:
  The Independent JPEG Group's JPEG library is a library for handling
  JPEG files.
-Contents-src:
- - README.txt
+Contents-Source:
+ - README.rst
  - libjpeg.mkb
  - libjpeg.mkf
  - jconfig.h
@@ -21,17 +22,3 @@ Contents:
  - upstream/jpegint.h : h/jpegint.h
  - upstream/jmorecfg.h : h/jmorecfg.h
  - jconfig.h : h/jconfig.h
- - lib/arm/jpeg.a
- - lib/arm/jpeg_d.a
- - lib/arm/libjpeg_d.a
- - lib/arm/libjpeg.a
-Contents-platform:
-  win32:
-    - lib/x86/jpeg.lib
-    - lib/x86/jpeg_d.lib
-  linux:
-    - lib/x86/linux/libjpeg.a
-    - lib/x86/linux/libjpeg_d.a
-  macosx:
-    - lib/x86/darwin/libjpeg.a
-    - lib/x86/darwin/libjpeg_d.a
