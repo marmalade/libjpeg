@@ -1,6 +1,4 @@
 Package: libjpeg
-Version: 6b
-Revision: 3
 Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
 Mkbs: libjpeg.mkb
 Libraries: jpeg

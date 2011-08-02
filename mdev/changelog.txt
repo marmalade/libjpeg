@@ -1,0 +1,5 @@
+libjpeg (6b-4)
+
+  * add changelog, and remove Version and Revision from package.yml
+
+ -- Sam Clegg <sam@marmalademail.com>  Tue, 02 Aug 2011 23:29:32 +0000
